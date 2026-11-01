@@ -1,154 +1,138 @@
-# Meriem Ibn Ibrahym 👋
+<div align="center">
 
-### AI & Data Engineering | Master Intelligence Artificielle & Data Science
+# Meriem Ibn Ibrahym
 
-Je développe des **assistants RAG**, des **pipelines de données** et des **applications web** pour transformer les données en solutions utiles.
+### Intelligence Artificielle · Data Engineering · Machine Learning
 
-🎓 Dernière année de Master IA & Data Science — **FST de Tanger**  
-🔎 Recherche **PFE de 6 mois dès février 2027**  
-📍Maroc
+Étudiante en dernière année de **Master IA & Data Science — FST de Tanger**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-5346FF?style=for-the-badge&logo=vercel&logoColor=white)](https://meriem-ibnibrahym.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/meriem-ibn-ibrahym-30910b345/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ibnibrahym.meriem@gmail.com)
+**Recherche PFE · 6 mois · Dès février 2027**  
+Tanger, Maroc · Mobilité Casablanca & Rabat
 
----
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://meriem-ibnibrahym.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/meriem-ibn-ibrahym-30910b345/)
+[![Email](https://img.shields.io/badge/CONTACT-334155?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ibnibrahym.meriem@gmail.com)
 
-## À propos
-
-Mon parcours associe **intelligence artificielle, ingénierie des données et développement logiciel**. J’aime comprendre un besoin métier, construire une solution et mesurer ses résultats.
-
-Mes expériences m’ont permis de travailler sur la recherche documentaire augmentée par les LLM, le traitement de données en streaming, le Deep Learning et le développement d’une plateforme de formation dans le secteur de la santé.
-
-**Curiosité, rigueur et esprit d’équipe** guident ma façon de travailler : expérimenter, documenter, partager mes avancées et intégrer les retours.
+</div>
 
 ---
 
-## 🚀 Projets sélectionnés
+## ✨ Projets à découvrir
 
-### 🤖 Assistants RAG — Normes et réglementations
+### 01 · Data Analytics & Machine Learning Platform
+#### Plateforme No-Code ML · Projet d’équipe
 
-**Rendre des documents réglementaires plus accessibles grâce à l’IA générative.**
+Plateforme centralisant la collecte, la préparation, la visualisation et la modélisation des données depuis une interface web.
 
-Réalisés lors de mon stage chez **Smart Automation Technologie**, ces assistants permettent d’interroger des documents liés aux normes et réglementations d’import-export.
+- Collecte automatisée avec Playwright.
+- Nettoyage et transformation avec Pandas et NumPy.
+- Entraînement de modèles de Machine Learning et génération de rapports PDF.
+- API FastAPI et interface React.
 
-- Préparation des documents, découpage et génération d’embeddings.
-- Recherche vectorielle et génération de réponses contextualisées.
-- Développement d’une interface de consultation avec Streamlit.
+**Technologies :** `Python` `FastAPI` `React` `Pandas` `NumPy` `scikit-learn` `Playwright`
 
-**Stack :** `Python` `LangChain` `Groq` `Llama 3` `Sentence Transformers` `Pinecone` `Streamlit`
+[**Explorer le projet →**](https://github.com/Ibnibrahym-meriem/PlatformNo-Code-ML)
 
-[→ Consulter le dépôt](https://github.com/ibnibrahym-meriem/NormalA-chatbot)
+---
 
-### ⚙️ Analyse de sentiments — Data Engineering & MLOps
+### 02 · Real-Time Amazon Reviews Sentiment Analysis
+#### Big Data · NLP · MLOps
 
-**Associer traitement en streaming, prédiction et automatisation du cycle de vie des modèles.**
+Analyse de sentiments à partir d’un jeu de données de **568 454 avis clients**, avec traitement en streaming et suivi des modèles.
 
-Projet réalisé à partir d’un jeu de données de **568 454 avis**.
+- Ingestion des messages avec Kafka et traitement avec Spark Streaming.
+- Classification NLP des sentiments et stockage dans MongoDB.
+- Visualisation des résultats dans un dashboard Flask.
+- Conteneurisation avec Docker, orchestration avec Airflow et suivi avec MLflow.
 
-- Production de messages avec Kafka et traitement avec Spark Structured Streaming.
-- Classification de sentiments avec TF-IDF et régression logistique.
-- Stockage des prédictions dans MongoDB.
-- Orchestration des contrôles et du réentraînement avec Airflow.
-- Suivi des expériences et des modèles avec MLflow.
+**Technologies :** `Python` `Kafka` `PySpark` `NLP` `MongoDB` `Flask` `Docker` `Airflow` `MLflow`
 
-**Stack :** `Python` `PySpark` `Kafka` `MongoDB` `Airflow` `MLflow` `NLP`
+[**Explorer le projet →**](https://github.com/Ibnibrahym-meriem/Amazon-Reviews-Sentiment-Analysis-BigData)
 
-### 💧 AquaLeak — Détection de fuites d’eau
+---
 
-**Exploiter les séries temporelles pour détecter des anomalies dans un réseau d’eau.**
+### 03 · AquaLeak
+#### Deep Learning · Séries temporelles · Détection de fuites
 
-- Préparation d’environ **1,47 million de lignes** après fusion des données BattLeDIM.
-- Conception d’un modèle **LSTM avec embedding de l’identifiant des conduites**.
-- Résultats sur le jeu d’évaluation du projet : **F1 de 0,95 et rappel de 96 % sur la classe fuite**.
+Détection et localisation de fuites dans les réseaux de distribution d’eau à partir des données **BattLeDIM 2018**.
 
-**Stack :** `Python` `Pandas` `NumPy` `TensorFlow` `Keras` `LSTM`
+- Préparation et fusion d’environ **1,47 million de lignes**.
+- Modèle LSTM intégrant un embedding de l’identifiant des conduites.
+- Restitution des résultats via une API et un dashboard avec export PDF.
 
-[→ Consulter le dépôt](https://github.com/ibnibrahym-meriem/water-leak-detection)
+| Indicateur | Résultat sur le jeu d’évaluation du projet |
+| :--- | :---: |
+| Accuracy | **96,3 %** |
+| F1 — classe fuite | **0,95** |
+| Rappel — classe fuite | **96 %** |
+| AUC | **0,998** |
 
-### 🏥 Plateforme de formation continue — GST TTA
+**Technologies :** `Python` `TensorFlow` `Keras` `LSTM` `Pandas` `NumPy` `FastAPI`
 
-**Contribuer à un outil métier destiné à une population cible d’environ 10 000 apprenants.**
+[**Explorer le projet →**](https://github.com/Ibnibrahym-meriem/water-leak-detection)
 
-Projet réalisé lors de mon stage au **Groupement Sanitaire Territorial Tanger–Tétouan–Al Hoceïma**.
+---
 
-- Gestion des rôles, des formations et des évaluations.
-- Parcours d’orientation et suivi de progression.
-- Génération d’attestations PDF et exports de données.
-- Développement d’API et d’interfaces adaptées aux besoins des utilisateurs.
+### 04 · GuardianYARA
+#### IA générative · RAG · Cybersécurité · Projet d’équipe
 
-**Stack :** `Django` `DRF` `React` `TypeScript` `PostgreSQL` `Redis` `Celery` `MinIO` `Docker Compose`
+Système d’aide aux analystes en cybersécurité pour générer des règles de détection YARA à partir de descriptions de menaces en langage naturel.
 
-### 🐳 Microservices Fintech — DevOps & CI/CD
+- Recherche documentaire hybride associant FAISS et BM25.
+- Génération de règles avec des modèles de langage.
+- Comparaison de plusieurs architectures RAG et modèles open source.
 
-**Développer et déployer une application reposant sur des services indépendants.**
+**Technologies :** `Python` `NLP` `RAG` `FAISS` `BM25` `Qwen2.5` `Mistral` `Flan-T5`
 
-- Conteneurisation avec Docker et orchestration avec Kubernetes.
-- Intégration continue avec Jenkins.
-- API Gateway, authentification JWT et communication via Kafka.
-- Intégration Web3 sur le réseau de test Sepolia.
+[**Explorer le dépôt collaboratif →**](https://github.com/ElMansouriAya/yara-rag-generator)
 
-**Stack :** `Docker` `Kubernetes` `Jenkins` `Kafka` `PostgreSQL` `React` `Web3.js`
+---
 
-### 🧩 Plateforme No-Code Machine Learning
+## 👩‍💻 À propos
 
-**Permettre l’exploration des données et l’entraînement de modèles depuis une interface web.**
+Mon parcours associe **intelligence artificielle, ingénierie des données et développement logiciel**. J’aime comprendre un besoin métier, expérimenter différentes approches et évaluer les résultats.
 
-Projet collaboratif intégrant l’importation, le prétraitement, la visualisation et l’entraînement de plusieurs algorithmes de classification.
+Lors de mon stage chez **Smart Automation Technologie**, j’ai développé des assistants RAG pour faciliter l’analyse de normes et réglementations d’import-export. Mes projets m’ont également permis de pratiquer le traitement de données en streaming, le Deep Learning et l’intégration de modèles dans des applications.
 
-**Stack :** `FastAPI` `React` `scikit-learn` `SQLite` `JWT`
+Je souhaite approfondir cette expérience au sein d’une équipe où je pourrai contribuer à des projets concrets, apprendre et partager mes idées.
 
-[→ Consulter le dépôt collaboratif](https://github.com/ElMansouriAya/No-Code-ML-Platform)
+[**Découvrir mon assistant documentaire NormaIA →**](https://github.com/Ibnibrahym-meriem/NormaIA-chatbot)
 
 ---
 
 ## 🛠️ Compétences techniques
 
+### Intelligence artificielle & Machine Learning
+
+`Python` `scikit-learn` `TensorFlow` `Keras` `Classification` `Régression` `LSTM` `Évaluation des modèles`
+
 ### IA générative & NLP
 
-`LLM` `RAG` `LangChain` `Groq` `Gemini` `Embeddings` `FAISS` `Pinecone` `Prompt Engineering` `TF-IDF`
-
-### Machine Learning & Deep Learning
-
-`scikit-learn` `TensorFlow` `Keras` `Classification` `Régression` `LSTM` `Évaluation des modèles`
+`LLM` `RAG` `LangChain` `Groq` `Gemini` `Embeddings` `FAISS` `Pinecone` `BM25` `Prompt Engineering` `TF-IDF`
 
 ### Data Engineering & MLOps
 
-`Python` `SQL` `Pandas` `NumPy` `PySpark` `Kafka` `Hadoop` `Airflow` `MLflow` `ETL` `Talend` `Pentaho` `Apache NiFi`
+`SQL` `Pandas` `NumPy` `PySpark` `Kafka` `Hadoop` `Airflow` `MLflow` `ETL` `Talend` `Pentaho` `Apache NiFi`
 
 ### Bases de données
 
 `PostgreSQL` `MySQL` `MongoDB` `SQLite`
 
-### Backend & API
+### Développement backend & API
 
 `Django` `Django REST Framework` `FastAPI` `Flask` `Streamlit` `API REST` `JWT` `Celery` `Redis`
 
-### Frontend
+### Développement frontend
 
 `React` `TypeScript` `JavaScript` `HTML` `CSS` `Tailwind CSS` `Vite` `TanStack Query`
 
-### DevOps & outils
+### Visualisation, tests & outils
 
-`Docker` `Docker Compose` `Kubernetes` `Jenkins` `Git` `GitHub` `Linux` `Nginx` `MinIO`
-
-### BI, visualisation & tests
-
-`Power BI` `Matplotlib` `Postman` `pytest`
+`Power BI` `Matplotlib` `Docker` `Docker Compose` `Git` `GitHub` `Linux` `Postman` `pytest` `Playwright`
 
 ### Autres langages pratiqués
 
 `Java` `PHP`
-
----
-
-## 🤝 Ma façon de travailler
-
-- **Comprendre le besoin** : clarifier les attentes et les contraintes avant de développer.
-- **Expérimenter avec rigueur** : comparer les approches et documenter leurs limites.
-- **Collaborer** : partager mes avancées et intégrer les retours de l’équipe.
-- **Prendre des initiatives** : proposer des améliorations et rechercher des solutions.
-- **Respecter les engagements** : organiser les tâches et suivre les délais.
 
 ---
 
@@ -163,10 +147,13 @@ FST de Tanger · **2025**
 
 ---
 
-## 📬 Construisons la suite
+<div align="center">
 
-Je recherche un **PFE de six mois dès février 2027** en **AI Engineering, Data Engineering ou Data Science**.
+### 📬 Une opportunité en Data & IA ?
 
-Je souhaite contribuer à des projets concrets, apprendre auprès d’une équipe expérimentée et développer des solutions dont l’utilité se mesure.
+Disponible pour un **PFE de six mois dès février 2027**  
+**AI Engineering · Data Engineering · Data Science**
 
-[**Découvrir mes réalisations**](https://meriem-ibnibrahym.vercel.app/) · [**Échanger sur LinkedIn**](https://www.linkedin.com/in/meriem-ibn-ibrahym-30910b345/) · [**Me contacter**](mailto:ibnibrahym.meriem@gmail.com)
+[**Portfolio**](https://meriem-ibnibrahym.vercel.app/) · [**LinkedIn**](https://www.linkedin.com/in/meriem-ibn-ibrahym-30910b345/) · [**Email**](mailto:ibnibrahym.meriem@gmail.com)
+
+</div>
