@@ -94,22 +94,22 @@ Mener un projet de données oblige à jongler entre plusieurs outils et à écri
 
 <br/>
 
-<!-- ═══════════════════════════ EDUCATION ═══════════════════════════ -->
-## <img src="https://img.shields.io/badge/-%20-A855F7?style=flat-square" height="22"/> Formation
-
-| | Diplôme | Établissement | Année |
-|:-:|:--|:--|:-:|
-| 🎓 | **Master Intelligence Artificielle & Data Science** | FST de Tanger — Université Abdelmalek Essaâdi | 2027 |
-| 📘 | **Licence Sciences et Techniques — Analytique de Données** | FST de Tanger | 2025 |
-
-<br/>
-
-<!-- ═══════════════════════════ STATS ═══════════════════════════ -->
-## <img src="https://img.shields.io/badge/-%20-A855F7?style=flat-square" height="22"/> Activité GitHub
+<!-- ═══════════════════════════ ACTIVITY ═══════════════════════════ -->
+## <img src="https://img.shields.io/badge/-%20-A855F7?style=flat-square" height="22"/> Activité
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=Ibnibrahym-meriem&theme=dark&hide_border=true&background=0D0D12&ring=A855F7&fire=A855F7&currStreakLabel=A855F7&sideLabels=C9C9D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B8BA0&stroke=2A2540&locale=fr" alt="GitHub Streak"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ibnibrahym-meriem/Ibnibrahym-meriem/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ibnibrahym-meriem/Ibnibrahym-meriem/output/github-snake.svg"/>
+  <img src="https://raw.githubusercontent.com/Ibnibrahym-meriem/Ibnibrahym-meriem/output/github-snake-dark.svg" width="100%" alt="Contributions GitHub"/>
+</picture>
+
+<br/><br/>
+
+Je partage régulièrement mes projets, mes apprentissages et mes réflexions sur l'IA et la data sur LinkedIn.
+
+<a href="https://www.linkedin.com/in/meriem-ibn-ibrahym-30910b345/"><img src="https://img.shields.io/badge/Suivre_mon_activité_sur_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Activité LinkedIn"/></a>
 
 </div>
 
