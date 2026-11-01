@@ -11,7 +11,7 @@
 
 <a href="https://meriem-ibnibrahym.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0D0D12?style=for-the-badge&logo=vercel&logoColor=A855F7" alt="Portfolio"/></a>
 <a href="https://www.linkedin.com/in/meriem-ibn-ibrahym-30910b345/"><img src="https://img.shields.io/badge/LinkedIn-0D0D12?style=for-the-badge&logo=linkedin&logoColor=A855F7" alt="LinkedIn"/></a>
-<a href="mailto:ibnibrahym.meriem@gmail.com"><img src="https://img.shields.io/badge/Email-0D0D12?style=for-the-badge&logo=gmail&logoColor=A855F7" alt="Email"/></a>
+<img src="https://img.shields.io/badge/ibnibrahym.meriem%40gmail.com-0D0D12?style=for-the-badge&logo=gmail&logoColor=A855F7" alt="ibnibrahym.meriem@gmail.com"/>
 
 <br/>
 
@@ -123,7 +123,7 @@ Mener un projet de données oblige à jongler entre plusieurs outils et à écri
 **AI Engineering · Data Engineering · Data Science**<br/>
 Disponible pour un **PFE de six mois dès février 2027**
 
-<a href="mailto:ibnibrahym.meriem@gmail.com"><img src="https://img.shields.io/badge/Me_contacter-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact"/></a>
+📧 **ibnibrahym.meriem@gmail.com**
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:A855F7,50:4C1D95,100:0D0D12" width="100%" alt=""/>
 
