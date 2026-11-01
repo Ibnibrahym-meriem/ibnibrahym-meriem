@@ -40,106 +40,73 @@ J'aime partir d'un vrai besoin, tester plusieurs approches, évaluer rigoureusem
 
 <br/>
 
-<!-- ═══════════════════════════ EXPERIENCE ═══════════════════════════ -->
-## <img src="https://img.shields.io/badge/-%20-A855F7?style=flat-square" height="22"/> Expérience
-
-<table>
-<tr>
-<td width="140" align="center"><b>CHU</b><br/><sub>Juil. – Sept. 2026</sub></td>
-<td>
-<b>Stagiaire AI Engineering</b><br/>
-Conception et développement d'une <b>plateforme de formation continue</b> intégrant un <b>assistant conversationnel</b> pour accompagner les professionnels de santé.
-<br/><sub>🔒 Projet en production — dépôt privé</sub>
-</td>
-</tr>
-<tr>
-<td width="140" align="center"><b>Smart Automation<br/>Technologie</b></td>
-<td>
-<b>Stagiaire IA — RAG & IA prédictive</b><br/>
-Développement d'<b>assistants RAG</b> pour l'analyse des normes et réglementations d'import-export, et travaux d'<b>IA prédictive</b> appliquée au risque de conformité.
-<br/><sub>→ <a href="https://github.com/Ibnibrahym-meriem/NormaIA-chatbot">NormaIA — assistant documentaire</a></sub>
-</td>
-</tr>
-</table>
-
-<br/>
-
 <!-- ═══════════════════════════ PROJECTS ═══════════════════════════ -->
 ## <img src="https://img.shields.io/badge/-%20-A855F7?style=flat-square" height="22"/> Projets phares
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🧠 GuardianYARA
+### 🧠 GuardianYARA — Génération de règles YARA par RAG
 <sub>IA générative · RAG · Cybersécurité · <i>Projet d'équipe</i></sub>
 
-Génère des **règles de détection YARA** à partir de descriptions de menaces en langage naturel, pour assister les analystes SOC.
+> **🔍 Problème**
+> Écrire des règles de détection YARA demande une expertise pointue et beaucoup de temps. Les analystes partent souvent d'une simple description de menace en langage naturel, qu'ils doivent traduire manuellement en règle exploitable.
 
-- Recherche hybride **FAISS + BM25**
-- Comparaison de plusieurs architectures RAG
-- Benchmark de LLM open source
+> **💡 Solution**
+> Un système RAG qui transforme une description de menace en règle YARA : une **recherche hybride FAISS + BM25** retrouve les règles et documents les plus pertinents, puis un **LLM** génère la règle à partir de ce contexte. Plusieurs architectures RAG et modèles open source ont été comparés.
 
-`RAG` `FAISS` `BM25` `Qwen2.5` `Mistral` `Flan-T5`
+> **📈 Résultats**
+> Un assistant capable de proposer des règles YARA à partir de texte libre, avec un **benchmark comparatif** de Qwen2.5, Mistral et Flan-T5 pour identifier la configuration la plus adaptée.
 
-[**Voir le dépôt →**](https://github.com/ElMansouriAya/yara-rag-generator)
+`Python` `NLP` `RAG` `FAISS` `BM25` `Qwen2.5` `Mistral` `Flan-T5` &nbsp;·&nbsp; [**Voir le dépôt →**](https://github.com/ElMansouriAya/yara-rag-generator)
 
-</td>
-<td width="50%" valign="top">
+<br/>
 
-### 📡 Amazon Reviews Sentiment
+### 📡 Real-Time Amazon Reviews Sentiment Analysis
 <sub>Big Data · NLP · MLOps</sub>
 
-Pipeline d'analyse de sentiments **en streaming** sur **568 454 avis clients**, du flux brut jusqu'au dashboard.
+> **🔍 Problème**
+> Les avis clients arrivent en continu et en très grand volume : impossible de les analyser manuellement ou en traitement par lots classique pour suivre l'opinion des clients en temps réel.
 
-- Ingestion **Kafka** → traitement **Spark Streaming**
-- Stockage **MongoDB** · dashboard **Flask**
-- Orchestration **Airflow** · suivi **MLflow** · **Docker**
+> **💡 Solution**
+> Un pipeline **streaming de bout en bout** : ingestion des avis avec **Kafka**, traitement et classification NLP avec **Spark Streaming**, stockage dans **MongoDB** et visualisation dans un dashboard **Flask**. Le tout conteneurisé avec **Docker**, orchestré par **Airflow** et suivi avec **MLflow**.
 
-`Kafka` `PySpark` `NLP` `MongoDB` `Airflow` `MLflow`
+> **📈 Résultats**
+> Pipeline opérationnel sur **568 454 avis clients**, avec des sentiments visualisés en temps réel et des expériences de modèles tracées et reproductibles.
 
-[**Voir le dépôt →**](https://github.com/Ibnibrahym-meriem/Amazon-Reviews-Sentiment-Analysis-BigData)
+`Python` `Kafka` `PySpark` `NLP` `MongoDB` `Flask` `Docker` `Airflow` `MLflow` &nbsp;·&nbsp; [**Voir le dépôt →**](https://github.com/Ibnibrahym-meriem/Amazon-Reviews-Sentiment-Analysis-BigData)
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<br/>
 
-### 💧 AquaLeak
+### 💧 AquaLeak — Détection de fuites dans les réseaux d'eau
 <sub>Deep Learning · Séries temporelles</sub>
 
-Détection et localisation de **fuites dans les réseaux d'eau** (BattLeDIM 2018, ~**1,47 M** de lignes).
+> **🔍 Problème**
+> Les fuites dans les réseaux de distribution d'eau provoquent d'importantes pertes et sont souvent détectées trop tard, faute de pouvoir exploiter rapidement les données des capteurs.
 
-- **LSTM** avec embedding des identifiants de conduites
-- API + dashboard avec export PDF
+> **💡 Solution**
+> Préparation et fusion d'environ **1,47 million de lignes** issues du jeu de données **BattLeDIM 2018**, puis entraînement d'un modèle **LSTM** intégrant un embedding de l'identifiant des conduites pour détecter **et localiser** les fuites. Résultats restitués via une **API FastAPI** et un dashboard avec export PDF.
 
-| Accuracy | F1 fuite | Rappel | AUC |
-|:-:|:-:|:-:|:-:|
-| **96,3 %** | **0,95** | **96 %** | **0,998** |
+> **📈 Résultats** — sur le jeu d'évaluation du projet
+>
+> | Accuracy | F1 — fuite | Rappel — fuite | AUC |
+> |:-:|:-:|:-:|:-:|
+> | **96,3 %** | **0,95** | **96 %** | **0,998** |
 
-`TensorFlow` `Keras` `LSTM` `FastAPI`
+`Python` `TensorFlow` `Keras` `LSTM` `Pandas` `NumPy` `FastAPI` &nbsp;·&nbsp; [**Voir le dépôt →**](https://github.com/Ibnibrahym-meriem/water-leak-detection)
 
-[**Voir le dépôt →**](https://github.com/Ibnibrahym-meriem/water-leak-detection)
+<br/>
 
-</td>
-<td width="50%" valign="top">
+### ⚙️ Data Analytics & Machine Learning Platform
+<sub>Plateforme No-Code ML · <i>Projet d'équipe</i></sub>
 
-### ⚙️ No-Code ML Platform
-<sub>Full-stack ML · <i>Projet d'équipe</i></sub>
+> **🔍 Problème**
+> Mener un projet de données implique de jongler entre plusieurs outils et d'écrire du code à chaque étape — un frein pour les utilisateurs non techniques.
 
-Plateforme web qui centralise **collecte, préparation, visualisation et modélisation** des données — sans écrire de code.
+> **💡 Solution**
+> Une plateforme web qui centralise tout le cycle : **collecte automatisée** avec Playwright, **nettoyage** avec Pandas et NumPy, **visualisation**, **entraînement de modèles** scikit-learn et **génération de rapports PDF** — via une API **FastAPI** et une interface **React**.
 
-- Collecte automatisée avec **Playwright**
-- Entraînement de modèles + rapports **PDF**
-- Back-end **FastAPI** · front-end **React**
+> **📈 Résultats**
+> Un parcours complet, de la donnée brute au modèle évalué et au rapport, réalisable **sans écrire une ligne de code** depuis une seule interface.
 
-`FastAPI` `React` `Pandas` `scikit-learn` `Playwright`
-
-[**Voir le dépôt →**](https://github.com/Ibnibrahym-meriem/PlatformNo-Code-ML)
-
-</td>
-</tr>
-</table>
+`Python` `FastAPI` `React` `Pandas` `NumPy` `scikit-learn` `Playwright` &nbsp;·&nbsp; [**Voir le dépôt →**](https://github.com/Ibnibrahym-meriem/PlatformNo-Code-ML)
 
 <br/>
 
@@ -166,6 +133,12 @@ Plateforme web qui centralise **collecte, préparation, visualisation et modéli
 | 🎨 **Front-end** | React · TypeScript · JavaScript · Tailwind CSS · Vite · TanStack Query |
 | 📊 **BI, tests & outils** | Power BI · Matplotlib · Docker Compose · pytest · Playwright · Git · Linux |
 
+### 🌱 En cours d'apprentissage
+
+<img src="https://img.shields.io/badge/IA_agentique-1E1B2E?style=for-the-badge&logo=robotframework&logoColor=A855F7" alt="IA agentique"/>
+<img src="https://img.shields.io/badge/Google_Cloud-1E1B2E?style=for-the-badge&logo=googlecloud&logoColor=A855F7" alt="Google Cloud"/>
+<img src="https://img.shields.io/badge/Virtualisation-1E1B2E?style=for-the-badge&logo=virtualbox&logoColor=A855F7" alt="Virtualisation"/>
+
 <br/>
 
 <!-- ═══════════════════════════ EDUCATION ═══════════════════════════ -->
@@ -183,10 +156,7 @@ Plateforme web qui centralise **collecte, préparation, visualisation et modéli
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Ibnibrahym-meriem&show_icons=true&hide_border=true&bg_color=0D0D12&title_color=A855F7&icon_color=A855F7&text_color=C9C9D9&rank_icon=github" alt="Stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ibnibrahym-meriem&layout=compact&hide_border=true&bg_color=0D0D12&title_color=A855F7&text_color=C9C9D9&langs_count=6" alt="Langages"/>
-
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ibnibrahym-meriem&bg_color=0D0D12&color=C9C9D9&line=A855F7&point=FFFFFF&area=true&area_color=7C3AED&hide_border=true" alt="Activity graph"/>
+<img src="https://streak-stats.demolab.com?user=Ibnibrahym-meriem&theme=dark&hide_border=true&background=0D0D12&ring=A855F7&fire=A855F7&currStreakLabel=A855F7&sideLabels=C9C9D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B8BA0&stroke=2A2540&locale=fr" alt="GitHub Streak"/>
 
 </div>
 
@@ -197,7 +167,7 @@ Plateforme web qui centralise **collecte, préparation, visualisation et modéli
 
 ### Une opportunité en Data & IA ?
 
-**AI Engineering · Data Engineering · Data Science**
+**AI Engineering · Data Engineering · Data Science**<br/>
 Disponible pour un **PFE de six mois dès février 2027**
 
 <a href="mailto:ibnibrahym.meriem@gmail.com"><img src="https://img.shields.io/badge/Me_contacter-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact"/></a>
