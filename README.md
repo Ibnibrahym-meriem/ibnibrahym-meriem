@@ -6,7 +6,7 @@ Je développe des **assistants RAG**, des **pipelines de données** et des **app
 
 🎓 Dernière année de Master IA & Data Science — **FST de Tanger**  
 🔎 Recherche **PFE de 6 mois dès février 2027**  
-📍 Tanger, Maroc · Mobile à **Casablanca et Rabat**
+📍Maroc
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-5346FF?style=for-the-badge&logo=vercel&logoColor=white)](https://meriem-ibnibrahym.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/meriem-ibn-ibrahym-30910b345/)
