@@ -1,159 +1,207 @@
+<!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
 <div align="center">
 
-# Meriem Ibn Ibrahym
+<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:0D0D12,50:4C1D95,100:A855F7&text=Meriem%20Ibn%20Ibrahym&fontColor=FFFFFF&fontSize=46&fontAlignY=38&desc=AI%20Engineering%20%E2%80%A2%20Data%20Engineering%20%E2%80%A2%20Machine%20Learning&descSize=16&descAlignY=58&animation=fadeIn" width="100%" alt="Meriem Ibn Ibrahym"/>
 
-### Intelligence Artificielle · Data Engineering · Machine Learning
+<a href="https://meriem-ibnibrahym.vercel.app/">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=900&color=A855F7&center=true&vCenter=true&width=620&lines=Je+con%C3%A7ois+des+assistants+RAG+et+des+LLM+appliqu%C3%A9s;Je+construis+des+pipelines+de+donn%C3%A9es+temps+r%C3%A9el;J'int%C3%A8gre+des+mod%C3%A8les+ML+dans+de+vraies+applications;En+recherche+d'un+PFE+de+6+mois+%E2%80%94+f%C3%A9vrier+2027" alt="Typing SVG"/>
+</a>
 
-Étudiante en dernière année de **Master IA & Data Science — FST de Tanger**
+<br/><br/>
 
-**Recherche PFE · 6 mois · Dès février 2027**  
-Tanger, Maroc · Mobilité Casablanca & Rabat
+<a href="https://meriem-ibnibrahym.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0D0D12?style=for-the-badge&logo=vercel&logoColor=A855F7" alt="Portfolio"/></a>
+<a href="https://www.linkedin.com/in/meriem-ibn-ibrahym-30910b345/"><img src="https://img.shields.io/badge/LinkedIn-0D0D12?style=for-the-badge&logo=linkedin&logoColor=A855F7" alt="LinkedIn"/></a>
+<a href="mailto:ibnibrahym.meriem@gmail.com"><img src="https://img.shields.io/badge/Email-0D0D12?style=for-the-badge&logo=gmail&logoColor=A855F7" alt="Email"/></a>
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://meriem-ibnibrahym.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/meriem-ibn-ibrahym-30910b345/)
-[![Email](https://img.shields.io/badge/CONTACT-334155?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ibnibrahym.meriem@gmail.com)
+<br/>
+
+<img src="https://img.shields.io/badge/📍%20Tanger,%20Maroc-1E1B2E?style=flat-square" alt="Tanger"/>
+<img src="https://img.shields.io/badge/🚀%20Mobilité-Casablanca%20%26%20Rabat-1E1B2E?style=flat-square" alt="Mobilité"/>
+<img src="https://img.shields.io/badge/🎯%20PFE%206%20mois-Dès%20février%202027-7C3AED?style=flat-square" alt="PFE"/>
 
 </div>
 
----
+<br/>
 
-## ✨ Projets à découvrir
+<!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
+## <img src="https://img.shields.io/badge/-%20-A855F7?style=flat-square" height="22"/> À propos
 
-### 01 · Data Analytics & Machine Learning Platform
-#### Plateforme No-Code ML · Projet d’équipe
+```python
+class MeriemIbnIbrahym:
+    formation   = "Master IA & Data Science — FST de Tanger (diplôme 2027)"
+    focus       = ["AI Engineering", "IA générative & RAG", "Data Engineering", "MLOps"]
+    approche    = "Comprendre le besoin métier → expérimenter → mesurer → déployer"
+    recherche   = "PFE de 6 mois · dès février 2027"
+    langues     = ["Français", "Arabe", "Anglais"]
+```
 
-Plateforme centralisant la collecte, la préparation, la visualisation et la modélisation des données depuis une interface web.
+Mon parcours se situe à la croisée de **l'intelligence artificielle**, de **l'ingénierie des données** et du **développement logiciel**.
+J'aime partir d'un vrai besoin, tester plusieurs approches, évaluer rigoureusement les résultats — puis livrer une solution utilisable.
 
-- Collecte automatisée avec Playwright.
-- Nettoyage et transformation avec Pandas et NumPy.
-- Entraînement de modèles de Machine Learning et génération de rapports PDF.
-- API FastAPI et interface React.
+<br/>
 
-**Technologies :** `Python` `FastAPI` `React` `Pandas` `NumPy` `scikit-learn` `Playwright`
+<!-- ═══════════════════════════ EXPERIENCE ═══════════════════════════ -->
+## <img src="https://img.shields.io/badge/-%20-A855F7?style=flat-square" height="22"/> Expérience
 
-[**Explorer le projet →**](https://github.com/Ibnibrahym-meriem/PlatformNo-Code-ML)
+<table>
+<tr>
+<td width="140" align="center"><b>CHU</b><br/><sub>Juil. – Sept. 2026</sub></td>
+<td>
+<b>Stagiaire AI Engineering</b><br/>
+Conception et développement d'une <b>plateforme de formation continue</b> intégrant un <b>assistant conversationnel</b> pour accompagner les professionnels de santé.
+<br/><sub>🔒 Projet en production — dépôt privé</sub>
+</td>
+</tr>
+<tr>
+<td width="140" align="center"><b>Smart Automation<br/>Technologie</b></td>
+<td>
+<b>Stagiaire IA — RAG & IA prédictive</b><br/>
+Développement d'<b>assistants RAG</b> pour l'analyse des normes et réglementations d'import-export, et travaux d'<b>IA prédictive</b> appliquée au risque de conformité.
+<br/><sub>→ <a href="https://github.com/Ibnibrahym-meriem/NormaIA-chatbot">NormaIA — assistant documentaire</a></sub>
+</td>
+</tr>
+</table>
 
----
+<br/>
 
-### 02 · Real-Time Amazon Reviews Sentiment Analysis
-#### Big Data · NLP · MLOps
+<!-- ═══════════════════════════ PROJECTS ═══════════════════════════ -->
+## <img src="https://img.shields.io/badge/-%20-A855F7?style=flat-square" height="22"/> Projets phares
 
-Analyse de sentiments à partir d’un jeu de données de **568 454 avis clients**, avec traitement en streaming et suivi des modèles.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- Ingestion des messages avec Kafka et traitement avec Spark Streaming.
-- Classification NLP des sentiments et stockage dans MongoDB.
-- Visualisation des résultats dans un dashboard Flask.
-- Conteneurisation avec Docker, orchestration avec Airflow et suivi avec MLflow.
+### 🧠 GuardianYARA
+<sub>IA générative · RAG · Cybersécurité · <i>Projet d'équipe</i></sub>
 
-**Technologies :** `Python` `Kafka` `PySpark` `NLP` `MongoDB` `Flask` `Docker` `Airflow` `MLflow`
+Génère des **règles de détection YARA** à partir de descriptions de menaces en langage naturel, pour assister les analystes SOC.
 
-[**Explorer le projet →**](https://github.com/Ibnibrahym-meriem/Amazon-Reviews-Sentiment-Analysis-BigData)
+- Recherche hybride **FAISS + BM25**
+- Comparaison de plusieurs architectures RAG
+- Benchmark de LLM open source
 
----
+`RAG` `FAISS` `BM25` `Qwen2.5` `Mistral` `Flan-T5`
 
-### 03 · AquaLeak
-#### Deep Learning · Séries temporelles · Détection de fuites
+[**Voir le dépôt →**](https://github.com/ElMansouriAya/yara-rag-generator)
 
-Détection et localisation de fuites dans les réseaux de distribution d’eau à partir des données **BattLeDIM 2018**.
+</td>
+<td width="50%" valign="top">
 
-- Préparation et fusion d’environ **1,47 million de lignes**.
-- Modèle LSTM intégrant un embedding de l’identifiant des conduites.
-- Restitution des résultats via une API et un dashboard avec export PDF.
+### 📡 Amazon Reviews Sentiment
+<sub>Big Data · NLP · MLOps</sub>
 
-| Indicateur | Résultat sur le jeu d’évaluation du projet |
-| :--- | :---: |
-| Accuracy | **96,3 %** |
-| F1 — classe fuite | **0,95** |
-| Rappel — classe fuite | **96 %** |
-| AUC | **0,998** |
+Pipeline d'analyse de sentiments **en streaming** sur **568 454 avis clients**, du flux brut jusqu'au dashboard.
 
-**Technologies :** `Python` `TensorFlow` `Keras` `LSTM` `Pandas` `NumPy` `FastAPI`
+- Ingestion **Kafka** → traitement **Spark Streaming**
+- Stockage **MongoDB** · dashboard **Flask**
+- Orchestration **Airflow** · suivi **MLflow** · **Docker**
 
-[**Explorer le projet →**](https://github.com/Ibnibrahym-meriem/water-leak-detection)
+`Kafka` `PySpark` `NLP` `MongoDB` `Airflow` `MLflow`
 
----
+[**Voir le dépôt →**](https://github.com/Ibnibrahym-meriem/Amazon-Reviews-Sentiment-Analysis-BigData)
 
-### 04 · GuardianYARA
-#### IA générative · RAG · Cybersécurité · Projet d’équipe
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-Système d’aide aux analystes en cybersécurité pour générer des règles de détection YARA à partir de descriptions de menaces en langage naturel.
+### 💧 AquaLeak
+<sub>Deep Learning · Séries temporelles</sub>
 
-- Recherche documentaire hybride associant FAISS et BM25.
-- Génération de règles avec des modèles de langage.
-- Comparaison de plusieurs architectures RAG et modèles open source.
+Détection et localisation de **fuites dans les réseaux d'eau** (BattLeDIM 2018, ~**1,47 M** de lignes).
 
-**Technologies :** `Python` `NLP` `RAG` `FAISS` `BM25` `Qwen2.5` `Mistral` `Flan-T5`
+- **LSTM** avec embedding des identifiants de conduites
+- API + dashboard avec export PDF
 
-[**Explorer le dépôt collaboratif →**](https://github.com/ElMansouriAya/yara-rag-generator)
+| Accuracy | F1 fuite | Rappel | AUC |
+|:-:|:-:|:-:|:-:|
+| **96,3 %** | **0,95** | **96 %** | **0,998** |
 
----
+`TensorFlow` `Keras` `LSTM` `FastAPI`
 
-## 👩‍💻 À propos
+[**Voir le dépôt →**](https://github.com/Ibnibrahym-meriem/water-leak-detection)
 
-Mon parcours associe **intelligence artificielle, ingénierie des données et développement logiciel**. J’aime comprendre un besoin métier, expérimenter différentes approches et évaluer les résultats.
+</td>
+<td width="50%" valign="top">
 
-Lors de mon stage chez **Smart Automation Technologie**, j’ai développé des assistants RAG pour faciliter l’analyse de normes et réglementations d’import-export. Mes projets m’ont également permis de pratiquer le traitement de données en streaming, le Deep Learning et l’intégration de modèles dans des applications.
+### ⚙️ No-Code ML Platform
+<sub>Full-stack ML · <i>Projet d'équipe</i></sub>
 
-Je souhaite approfondir cette expérience au sein d’une équipe où je pourrai contribuer à des projets concrets, apprendre et partager mes idées.
+Plateforme web qui centralise **collecte, préparation, visualisation et modélisation** des données — sans écrire de code.
 
-[**Découvrir mon assistant documentaire NormaIA →**](https://github.com/Ibnibrahym-meriem/NormaIA-chatbot)
+- Collecte automatisée avec **Playwright**
+- Entraînement de modèles + rapports **PDF**
+- Back-end **FastAPI** · front-end **React**
 
----
+`FastAPI` `React` `Pandas` `scikit-learn` `Playwright`
 
-## 🛠️ Compétences techniques
+[**Voir le dépôt →**](https://github.com/Ibnibrahym-meriem/PlatformNo-Code-ML)
 
-### Intelligence artificielle & Machine Learning
+</td>
+</tr>
+</table>
 
-`Python` `scikit-learn` `TensorFlow` `Keras` `Classification` `Régression` `LSTM` `Évaluation des modèles`
+<br/>
 
-### IA générative & NLP
-
-`LLM` `RAG` `LangChain` `Groq` `Gemini` `Embeddings` `FAISS` `Pinecone` `BM25` `Prompt Engineering` `TF-IDF`
-
-### Data Engineering & MLOps
-
-`SQL` `Pandas` `NumPy` `PySpark` `Kafka` `Hadoop` `Airflow` `MLflow` `ETL` `Talend` `Pentaho` `Apache NiFi`
-
-### Bases de données
-
-`PostgreSQL` `MySQL` `MongoDB` `SQLite`
-
-### Développement backend & API
-
-`Django` `Django REST Framework` `FastAPI` `Flask` `Streamlit` `API REST` `JWT` `Celery` `Redis`
-
-### Développement frontend
-
-`React` `TypeScript` `JavaScript` `HTML` `CSS` `Tailwind CSS` `Vite` `TanStack Query`
-
-### Visualisation, tests & outils
-
-`Power BI` `Matplotlib` `Docker` `Docker Compose` `Git` `GitHub` `Linux` `Postman` `pytest` `Playwright`
-
-### Autres langages pratiqués
-
-`Java` `PHP`
-
----
-
-## 🎓 Formation
-
-**Master Intelligence Artificielle & Data Science**  
-FST de Tanger — Université Abdelmalek Essaâdi  
-Dernière année · Diplôme prévu en **2027**
-
-**Licence Sciences et Techniques — Analytique de Données**  
-FST de Tanger · **2025**
-
----
+<!-- ═══════════════════════════ STACK ═══════════════════════════ -->
+## <img src="https://img.shields.io/badge/-%20-A855F7?style=flat-square" height="22"/> Stack technique
 
 <div align="center">
 
-### 📬 Une opportunité en Data & IA ?
+<img src="https://skillicons.dev/icons?i=py,tensorflow,sklearn,fastapi,django,flask,react,ts,tailwind,vite&theme=dark" alt="Stack 1"/>
+<br/>
+<img src="https://skillicons.dev/icons?i=kafka,docker,postgres,mysql,mongodb,redis,sqlite,linux,git,postman&theme=dark" alt="Stack 2"/>
 
-Disponible pour un **PFE de six mois dès février 2027**  
+</div>
+
+<br/>
+
+| Domaine | Outils |
+|:--|:--|
+| 🤖 **IA & Machine Learning** | Python · scikit-learn · TensorFlow · Keras · LSTM · Classification · Régression · Évaluation de modèles |
+| ✨ **IA générative & NLP** | LLM · RAG · LangChain · Groq · Gemini · Embeddings · FAISS · Pinecone · BM25 · Prompt Engineering · TF-IDF |
+| 🔄 **Data Engineering & MLOps** | SQL · Pandas · NumPy · PySpark · Kafka · Hadoop · Airflow · MLflow · ETL · Talend · Pentaho · Apache NiFi |
+| 🗄️ **Bases de données** | PostgreSQL · MySQL · MongoDB · SQLite |
+| 🧩 **Back-end & API** | FastAPI · Django · DRF · Flask · Streamlit · REST · JWT · Celery · Redis |
+| 🎨 **Front-end** | React · TypeScript · JavaScript · Tailwind CSS · Vite · TanStack Query |
+| 📊 **BI, tests & outils** | Power BI · Matplotlib · Docker Compose · pytest · Playwright · Git · Linux |
+
+<br/>
+
+<!-- ═══════════════════════════ EDUCATION ═══════════════════════════ -->
+## <img src="https://img.shields.io/badge/-%20-A855F7?style=flat-square" height="22"/> Formation
+
+| | Diplôme | Établissement | Année |
+|:-:|:--|:--|:-:|
+| 🎓 | **Master Intelligence Artificielle & Data Science** | FST de Tanger — Université Abdelmalek Essaâdi | 2027 |
+| 📘 | **Licence Sciences et Techniques — Analytique de Données** | FST de Tanger | 2025 |
+
+<br/>
+
+<!-- ═══════════════════════════ STATS ═══════════════════════════ -->
+## <img src="https://img.shields.io/badge/-%20-A855F7?style=flat-square" height="22"/> Activité GitHub
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Ibnibrahym-meriem&show_icons=true&hide_border=true&bg_color=0D0D12&title_color=A855F7&icon_color=A855F7&text_color=C9C9D9&rank_icon=github" alt="Stats"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ibnibrahym-meriem&layout=compact&hide_border=true&bg_color=0D0D12&title_color=A855F7&text_color=C9C9D9&langs_count=6" alt="Langages"/>
+
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ibnibrahym-meriem&bg_color=0D0D12&color=C9C9D9&line=A855F7&point=FFFFFF&area=true&area_color=7C3AED&hide_border=true" alt="Activity graph"/>
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+<div align="center">
+
+### Une opportunité en Data & IA ?
+
 **AI Engineering · Data Engineering · Data Science**
+Disponible pour un **PFE de six mois dès février 2027**
 
-[**Portfolio**](https://meriem-ibnibrahym.vercel.app/) · [**LinkedIn**](https://www.linkedin.com/in/meriem-ibn-ibrahym-30910b345/) · [**Email**](mailto:ibnibrahym.meriem@gmail.com)
+<a href="mailto:ibnibrahym.meriem@gmail.com"><img src="https://img.shields.io/badge/Me_contacter-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact"/></a>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:A855F7,50:4C1D95,100:0D0D12" width="100%" alt=""/>
 
 </div>
