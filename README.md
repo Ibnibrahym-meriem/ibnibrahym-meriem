@@ -26,17 +26,7 @@
 <!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
 ## <img src="https://img.shields.io/badge/-%20-A855F7?style=flat-square" height="22"/> À propos
 
-```python
-class MeriemIbnIbrahym:
-    formation   = "Master IA & Data Science — FST de Tanger (diplôme 2027)"
-    focus       = ["AI Engineering", "IA générative & RAG", "Data Engineering", "MLOps"]
-    approche    = "Comprendre le besoin métier → expérimenter → mesurer → déployer"
-    recherche   = "PFE de 6 mois · dès février 2027"
-    langues     = ["Français", "Arabe", "Anglais"]
-```
-
-Mon parcours se situe à la croisée de **l'intelligence artificielle**, de **l'ingénierie des données** et du **développement logiciel**.
-J'aime partir d'un vrai besoin, tester plusieurs approches, évaluer rigoureusement les résultats — puis livrer une solution utilisable.
+Étudiante en dernière année du **Master Intelligence Artificielle & Data Science** à la FST de Tanger, je construis des solutions qui relient **l'IA générative**, **l'ingénierie des données** et **le développement logiciel**. J'aime partir d'un vrai besoin métier, expérimenter plusieurs approches, mesurer rigoureusement les résultats, puis transformer le modèle en une application réellement utilisable — qu'il s'agisse d'un assistant RAG, d'un pipeline de données en temps réel ou d'un modèle de Deep Learning exposé via une API. Je recherche aujourd'hui un **PFE de six mois à partir de février 2027** en **AI Engineering**, **Data Engineering** ou **Data Science**, au sein d'une équipe où je pourrai contribuer à des projets concrets, apprendre et partager mes idées.
 
 <br/>
 
@@ -46,14 +36,7 @@ J'aime partir d'un vrai besoin, tester plusieurs approches, évaluer rigoureusem
 ### 🧠 GuardianYARA — Génération de règles YARA par RAG
 <sub>IA générative · RAG · Cybersécurité · <i>Projet d'équipe</i></sub>
 
-> **🔍 Problème**
-> Écrire des règles de détection YARA demande une expertise pointue et beaucoup de temps. Les analystes partent souvent d'une simple description de menace en langage naturel, qu'ils doivent traduire manuellement en règle exploitable.
-
-> **💡 Solution**
-> Un système RAG qui transforme une description de menace en règle YARA : une **recherche hybride FAISS + BM25** retrouve les règles et documents les plus pertinents, puis un **LLM** génère la règle à partir de ce contexte. Plusieurs architectures RAG et modèles open source ont été comparés.
-
-> **📈 Résultats**
-> Un assistant capable de proposer des règles YARA à partir de texte libre, avec un **benchmark comparatif** de Qwen2.5, Mistral et Flan-T5 pour identifier la configuration la plus adaptée.
+Écrire des règles de détection YARA exige une expertise pointue et beaucoup de temps, alors que les analystes partent souvent d'une simple description de menace en langage naturel. Pour réduire cet effort, nous avons conçu un système RAG qui combine une **recherche hybride FAISS + BM25**, chargée de retrouver les règles et documents les plus pertinents, avec un **LLM** qui génère la règle à partir de ce contexte. Le résultat est un assistant capable de proposer des règles YARA à partir de texte libre, accompagné d'un **benchmark comparatif** de plusieurs architectures RAG et des modèles Qwen2.5, Mistral et Flan-T5 afin d'identifier la configuration la plus adaptée.
 
 `Python` `NLP` `RAG` `FAISS` `BM25` `Qwen2.5` `Mistral` `Flan-T5` &nbsp;·&nbsp; [**Voir le dépôt →**](https://github.com/ElMansouriAya/yara-rag-generator)
 
@@ -62,14 +45,7 @@ J'aime partir d'un vrai besoin, tester plusieurs approches, évaluer rigoureusem
 ### 📡 Real-Time Amazon Reviews Sentiment Analysis
 <sub>Big Data · NLP · MLOps</sub>
 
-> **🔍 Problème**
-> Les avis clients arrivent en continu et en très grand volume : impossible de les analyser manuellement ou en traitement par lots classique pour suivre l'opinion des clients en temps réel.
-
-> **💡 Solution**
-> Un pipeline **streaming de bout en bout** : ingestion des avis avec **Kafka**, traitement et classification NLP avec **Spark Streaming**, stockage dans **MongoDB** et visualisation dans un dashboard **Flask**. Le tout conteneurisé avec **Docker**, orchestré par **Airflow** et suivi avec **MLflow**.
-
-> **📈 Résultats**
-> Pipeline opérationnel sur **568 454 avis clients**, avec des sentiments visualisés en temps réel et des expériences de modèles tracées et reproductibles.
+Les avis clients arrivent en continu et en très grand volume, ce qui rend impossible leur analyse manuelle ou par simple traitement par lots lorsqu'on veut suivre l'opinion en temps réel. J'ai donc construit un pipeline **streaming de bout en bout** : les avis sont ingérés par **Kafka**, classifiés par un modèle NLP dans **Spark Streaming**, stockés dans **MongoDB** puis visualisés dans un dashboard **Flask**, le tout conteneurisé avec **Docker**, orchestré par **Airflow** et suivi avec **MLflow**. Le pipeline est opérationnel sur **568 454 avis clients**, avec des sentiments visualisés en temps réel et des expériences de modèles tracées et reproductibles.
 
 `Python` `Kafka` `PySpark` `NLP` `MongoDB` `Flask` `Docker` `Airflow` `MLflow` &nbsp;·&nbsp; [**Voir le dépôt →**](https://github.com/Ibnibrahym-meriem/Amazon-Reviews-Sentiment-Analysis-BigData)
 
@@ -78,17 +54,7 @@ J'aime partir d'un vrai besoin, tester plusieurs approches, évaluer rigoureusem
 ### 💧 AquaLeak — Détection de fuites dans les réseaux d'eau
 <sub>Deep Learning · Séries temporelles</sub>
 
-> **🔍 Problème**
-> Les fuites dans les réseaux de distribution d'eau provoquent d'importantes pertes et sont souvent détectées trop tard, faute de pouvoir exploiter rapidement les données des capteurs.
-
-> **💡 Solution**
-> Préparation et fusion d'environ **1,47 million de lignes** issues du jeu de données **BattLeDIM 2018**, puis entraînement d'un modèle **LSTM** intégrant un embedding de l'identifiant des conduites pour détecter **et localiser** les fuites. Résultats restitués via une **API FastAPI** et un dashboard avec export PDF.
-
-> **📈 Résultats** — sur le jeu d'évaluation du projet
->
-> | Accuracy | F1 — fuite | Rappel — fuite | AUC |
-> |:-:|:-:|:-:|:-:|
-> | **96,3 %** | **0,95** | **96 %** | **0,998** |
+Les fuites dans les réseaux de distribution d'eau entraînent d'importantes pertes et sont souvent repérées trop tard, faute d'exploiter rapidement les données des capteurs. À partir du jeu de données **BattLeDIM 2018**, j'ai préparé et fusionné environ **1,47 million de lignes**, puis entraîné un modèle **LSTM** intégrant un embedding de l'identifiant des conduites pour **détecter et localiser** les fuites, avec une restitution via une **API FastAPI** et un dashboard exportable en PDF. Sur le jeu d'évaluation du projet, le modèle atteint une **accuracy de 96,3 %**, un **F1 de 0,95** et un **rappel de 96 %** sur la classe fuite, ainsi qu'une **AUC de 0,998**.
 
 `Python` `TensorFlow` `Keras` `LSTM` `Pandas` `NumPy` `FastAPI` &nbsp;·&nbsp; [**Voir le dépôt →**](https://github.com/Ibnibrahym-meriem/water-leak-detection)
 
@@ -97,14 +63,7 @@ J'aime partir d'un vrai besoin, tester plusieurs approches, évaluer rigoureusem
 ### ⚙️ Data Analytics & Machine Learning Platform
 <sub>Plateforme No-Code ML · <i>Projet d'équipe</i></sub>
 
-> **🔍 Problème**
-> Mener un projet de données implique de jongler entre plusieurs outils et d'écrire du code à chaque étape — un frein pour les utilisateurs non techniques.
-
-> **💡 Solution**
-> Une plateforme web qui centralise tout le cycle : **collecte automatisée** avec Playwright, **nettoyage** avec Pandas et NumPy, **visualisation**, **entraînement de modèles** scikit-learn et **génération de rapports PDF** — via une API **FastAPI** et une interface **React**.
-
-> **📈 Résultats**
-> Un parcours complet, de la donnée brute au modèle évalué et au rapport, réalisable **sans écrire une ligne de code** depuis une seule interface.
+Mener un projet de données oblige à jongler entre plusieurs outils et à écrire du code à chaque étape, ce qui freine fortement les utilisateurs non techniques. Nous avons développé une plateforme web qui centralise tout le cycle : **collecte automatisée** avec Playwright, **nettoyage** avec Pandas et NumPy, **visualisation**, **entraînement de modèles** scikit-learn et **génération de rapports PDF**, le tout via une API **FastAPI** et une interface **React**. Il devient ainsi possible de passer de la donnée brute à un modèle évalué et à un rapport complet **sans écrire une seule ligne de code**, depuis une interface unique.
 
 `Python` `FastAPI` `React` `Pandas` `NumPy` `scikit-learn` `Playwright` &nbsp;·&nbsp; [**Voir le dépôt →**](https://github.com/Ibnibrahym-meriem/PlatformNo-Code-ML)
 
@@ -132,12 +91,6 @@ J'aime partir d'un vrai besoin, tester plusieurs approches, évaluer rigoureusem
 | 🧩 **Back-end & API** | FastAPI · Django · DRF · Flask · Streamlit · REST · JWT · Celery · Redis |
 | 🎨 **Front-end** | React · TypeScript · JavaScript · Tailwind CSS · Vite · TanStack Query |
 | 📊 **BI, tests & outils** | Power BI · Matplotlib · Docker Compose · pytest · Playwright · Git · Linux |
-
-### 🌱 En cours d'apprentissage
-
-<img src="https://img.shields.io/badge/IA_agentique-1E1B2E?style=for-the-badge&logo=robotframework&logoColor=A855F7" alt="IA agentique"/>
-<img src="https://img.shields.io/badge/Google_Cloud-1E1B2E?style=for-the-badge&logo=googlecloud&logoColor=A855F7" alt="Google Cloud"/>
-<img src="https://img.shields.io/badge/Virtualisation-1E1B2E?style=for-the-badge&logo=virtualbox&logoColor=A855F7" alt="Virtualisation"/>
 
 <br/>
 
